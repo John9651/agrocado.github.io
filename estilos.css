@@ -1,0 +1,243 @@
+html, body {
+  position: relative;
+  font-family: Helvetica, Arial, sans-serif;
+  color: black;
+  font-size: 1em;
+  padding-top: 20px;
+}
+
+#main-header{
+  height: 80px;
+  width: 100%;
+  position:fixed;
+  top:0px;
+  z-index: 100;
+}
+
+#main-footer {
+  height:90px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgb(111,0,0);
+  color: white;
+  text-align: center;
+  padding: 30px;
+  margin-top: 80px;
+}
+#main-footer p {
+  margin: 0;
+}
+#main-footer a {
+  color: white;
+}
+#welcome{
+  font-family: Helvetica, Geneva, Arial, sans-serif;
+	text-align: center;
+  color: black;
+  margin: 0 auto;
+}
+h2{
+  font-family: Helvetica, Geneva, Arial, sans-serif;
+	text-align: center;
+}
+h3 {
+	font-family: Helvetica, Geneva, Arial, sans-serif;
+	text-align: center;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit]  {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.form-register{
+  width: 500px;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+input[type=time], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=date], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.form-login{
+  width: 500px;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+#error{
+  font-family: Helvetica, Geneva, Arial, sans-serif;
+	text-align: center;
+  color: red;
+}
+
+#foto{
+  padding: 8px;
+  text-align: center;
+}
+
+#agregar{
+ margin: 1rem;
+ padding: 1rem;
+ text-align: center;
+}
+#espacio{
+  padding: 20px
+}
+
+#centrar{
+  width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 20px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#reporte{
+  position:fixed;
+  width:300px;
+  right: 0px;
+  top:24%;
+}
+
+
+.containerConsulta{
+  max-width: 1200px;
+	height: auto;
+	background-color:#FFFFFF;
+	margin: 5% auto;
+	padding-bottom: 1rem;
+}
+
+
+.container {
+	max-width: 480px;
+	height: auto;
+	background-color:#EFEFEF;
+	margin: 5% auto;
+	padding-bottom: 1rem;
+
+}
+
+.form__top {
+	width: 100%;
+	text-align: center;
+	padding: 2rem 0 1rem;
+	border-top: solid .4rem #A21515;
+	margin-bottom: 1rem;
+}
+
+.form__top h2 {
+	font-weight: bold;
+	color: #E7C372;
+	font-size: 18px;
+}
+
+h2 span {
+	color: #A21515;
+}
+
+.form__reg {
+	padding: 0 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.btn__form {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 1rem;
+}
+
+.input, .btn__submit, .btn__reset{
+	background-color: #FFFFFF;
+	padding: .5rem;
+	margin: .5rem 0;
+	border: none;
+	border-bottom: solid #A21515 .2rem;
+	transition: all .5s;
+}
+
+.input:focus {
+	border-bottom: solid #A21515 .2rem;
+}
+
+.btn__submit, .btn__reset {
+	width: 40%;
+  border-radius: 10px;
+	color: white;
+}
+
+.btn__reset {
+	background-color: #FA9535;
+}
+
+.btn__submit:hover {
+	background-color: #4C9ED9;
+}
+
+.btn__reset:hover{
+	background-color: #780808;
+}
